@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T02:24:52.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="5msXfr3xZhP7d7uAbwU0" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T02:28:04.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="0Zb0eQowbhFN1-s28328" version="15.7.3" type="github">
   <diagram id="TDRJOrQkZRvxVLFyGHF5" name="Page-1">
-    <mxGraphModel dx="785" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="a1DzPcXFki-y8RiUeydO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-7" target="a1DzPcXFki-y8RiUeydO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a1DzPcXFki-y8RiUeydO-12" value="推送随路信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-11">
+        <mxCell id="a1DzPcXFki-y8RiUeydO-12" value="推送随路信息&lt;br&gt;（自动接通电话触发）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-11">
           <mxGeometry x="-0.2496" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -42,7 +42,7 @@
         <mxCell id="a1DzPcXFki-y8RiUeydO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-8" target="a1DzPcXFki-y8RiUeydO-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a1DzPcXFki-y8RiUeydO-14" value="获取随路信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-13">
+        <mxCell id="a1DzPcXFki-y8RiUeydO-14" value="获取随路信息&lt;br&gt;（语音抓包触发）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-13">
           <mxGeometry x="0.1032" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -51,9 +51,13 @@
           <mxGeometry x="100" y="225" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-9" target="a1DzPcXFki-y8RiUeydO-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="a1DzPcXFki-y8RiUeydO-16" value="获取转写内容，同步到质检库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-15">
+        <mxCell id="a1DzPcXFki-y8RiUeydO-16" value="获取转写内容保存到质检库&lt;br&gt;（3分钟一次定时调用）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-15">
           <mxGeometry x="-0.2169" y="-2" relative="1" as="geometry">
             <mxPoint x="-16" as="offset" />
           </mxGeometry>
