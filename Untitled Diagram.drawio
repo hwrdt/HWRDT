@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T02:20:26.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="MNTxztBnrTVW3x1BqgYH" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-16T02:24:52.359Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="5msXfr3xZhP7d7uAbwU0" version="15.7.3" type="github">
   <diagram id="TDRJOrQkZRvxVLFyGHF5" name="Page-1">
     <mxGraphModel dx="785" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,34 +8,58 @@
           <mxGeometry x="60" y="55" width="770" height="495" as="geometry" />
         </mxCell>
         <mxCell id="_P_8fhsZwQ1dmkPrRWgn-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;redis&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="405" y="90" width="80" height="40" as="geometry" />
+          <mxGeometry x="334" y="430" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_P_8fhsZwQ1dmkPrRWgn-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;rocketmq&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="90" width="80" height="40" as="geometry" />
+          <mxGeometry x="430" y="430" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a1DzPcXFki-y8RiUeydO-1" value="aiOrder-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="230" width="106" height="50" as="geometry" />
+        <mxCell id="a1DzPcXFki-y8RiUeydO-1" value="aiOrder-api&lt;br&gt;（接口）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-2" value="aiOrder-web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="360" width="107" height="50" as="geometry" />
+          <mxGeometry x="403" y="90" width="107" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="a1DzPcXFki-y8RiUeydO-3" value="aiOrder-semantic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="230" width="106" height="50" as="geometry" />
+        <mxCell id="a1DzPcXFki-y8RiUeydO-3" value="aiOrder-semantic&lt;br&gt;（语义分析）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="230" width="106" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-4" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="238.75" width="80" height="40" as="geometry" />
+          <mxGeometry x="570" y="420" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-6" value="aiOrder-code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="330" width="106" height="50" as="geometry" />
+          <mxGeometry x="613" y="320" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-7" target="a1DzPcXFki-y8RiUeydO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-12" value="推送随路信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-11">
+          <mxGeometry x="-0.2496" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-7" value="坐席（200/300）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="130" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-8" target="a1DzPcXFki-y8RiUeydO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-14" value="获取随路信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-13">
+          <mxGeometry x="0.1032" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-8" value="NOC" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="238.75" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="225" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1DzPcXFki-y8RiUeydO-9" target="a1DzPcXFki-y8RiUeydO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-16" value="获取转写内容，同步到质检库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a1DzPcXFki-y8RiUeydO-15">
+          <mxGeometry x="-0.2169" y="-2" relative="1" as="geometry">
+            <mxPoint x="-16" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a1DzPcXFki-y8RiUeydO-9" value="智能质检" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="30" height="60" as="geometry" />
+          <mxGeometry x="100" y="350" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
