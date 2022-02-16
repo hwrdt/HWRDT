@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T02:13:50.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="P0g9tTi-9yPYPGt9FZYc" version="15.7.3" type="github"><diagram id="TDRJOrQkZRvxVLFyGHF5" name="Page-1">1ZVNc4IwEIZ/DUdnhPiBx2qttp2OtB6c6cVJyUoyBqIxFuivbyhBoODUQz14geTZZTd59x210CRMZhLv6IsgwC2nSxIL3VuOM3T7+pmBNAc918lBIBnJkV2CJfsCA7uGHhmBQy1RCcEV29WhL6IIfFVjWEoR19M2gte77nAADbD0MW/SFSOK5tR1hiWfAwto0dkejPJIiItkc5MDxUTEFYSmFppIIVS+CpMJ8Ey7Qpf8u4cz0dPBJETqkg/mw8dt+uSi5HmzCJKl73reomOqfGJ+NBc2h1VpoYAUx4hAVqRroXFMmYLlDvtZNNYj14yqkOudrZfNQxUdQCpIKsgccgYiBCVTnVJE+0Yw45iR2cal/P2C0Yr0PWQgNiMPTqVLVfTCCNMu0tpbuxt6eI9fbRJuPfm2CqJWkQZctx1vhL5mVa3B/pjNc5xdl2kXdTBnQWShu6xHREEyVSbpVWDe/1hNAmGHouSH/N1EK5D3+QOfdYF9qQsaI28xxnkXjOousN2mDdw2F1zLBOi2TCD8Lahwf+NTd4ZXm7relr+9P7HKHxiafgM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T02:20:26.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="MNTxztBnrTVW3x1BqgYH" version="15.7.3" type="github">
+  <diagram id="TDRJOrQkZRvxVLFyGHF5" name="Page-1">
+    <mxGraphModel dx="785" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H7IkyJ83xKfOgxSc8PPO-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="55" width="770" height="495" as="geometry" />
+        </mxCell>
+        <mxCell id="_P_8fhsZwQ1dmkPrRWgn-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;redis&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_P_8fhsZwQ1dmkPrRWgn-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;rocketmq&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-1" value="aiOrder-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="230" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-2" value="aiOrder-web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="107" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-3" value="aiOrder-semantic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-4" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="238.75" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-6" value="aiOrder-code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="330" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-7" value="坐席（200/300）" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-8" value="NOC" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="238.75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1DzPcXFki-y8RiUeydO-9" value="智能质检" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
